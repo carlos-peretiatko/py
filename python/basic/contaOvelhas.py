@@ -27,5 +27,12 @@ for i in range(len(vetQtde)):
 
 # saida de dados
 
-print("A quantidade total de ovelhas é", QtdeTotal)
-print("O valor total é", VlrTotal)
+print("COR \tQRDE \tTOTAL")
+print("------------------")
+
+for i in range(3):
+    print(vetCores[i], "\t", vetQtde[i], "\t", vetTotal[i])
+
+print("------------------")
+print("Total de ovelhas: ", QtdeTotal)
+print("Valor total: R$", VlrTotal)
